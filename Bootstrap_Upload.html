@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccine Certificate Upload</title>
+    <link rel="stylesheet" href="./Bootstrap_Upload.css">
+</head>
+<body>
+    <div class="upload">
+        <h1>Photo Uploader</h1>
+        <h2>File Name and Choose file are mandatory fields</h2>
+    </div>
+    <div class="upload-form">
+        <form action="" id="upload-form" method="POST">
+            <input type="text" class="form-control" name="filename" placeholder="Dose 1 date details: ">
+            <br>
+            <input type="text" name="filetitle" placeholder="Dose 2 date details:" class="form-control">
+            <br>
+            <input type="text" name="filedesc" placeholder="Name of vaccination" class="form-control">
+            <br>
+            <input type="file" name="file", class="form-control">
+            <br>
+            <input type="submit" class="form-control submit" value="UPLOAD PHOTO">
+            <br>
+        </form>
+        <form action="">
+            <input type="submit" class="form-control submit" value="Back to home">
+        </form>
+    </div>
+</body>
+</html>
